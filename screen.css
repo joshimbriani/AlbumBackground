@@ -1,0 +1,27 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+  overflow-y: hidden;
+}
+
+.musicbg {
+   /* Prevent vertical gaps */
+   line-height: 0;
+   
+   -webkit-column-count: 10;
+   -webkit-column-gap:   0px;
+   -moz-column-count:    10;
+   -moz-column-gap:      0px;
+   column-count:         10;
+   column-gap:           0px;
+   height: 120%;
+
+   overflow-x: hidden;
+   
+}
+.musicbg img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+}
